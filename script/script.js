@@ -10,6 +10,8 @@ let speedRange = speedRangeEvent.value;
 speedRangeEvent.addEventListener("change", function () {
    
     speedRange = speedRangeEvent.value;
+    speedRange = 1000 - speedRange;
+
 
 });
 let mainContainer = document.getElementById("main-container");
